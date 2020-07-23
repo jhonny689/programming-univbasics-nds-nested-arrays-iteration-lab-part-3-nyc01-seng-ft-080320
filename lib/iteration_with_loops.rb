@@ -11,5 +11,5 @@ def join_nested_strings(src)
       end
     end
   end
-  result.trim
+  result.strip
 end
