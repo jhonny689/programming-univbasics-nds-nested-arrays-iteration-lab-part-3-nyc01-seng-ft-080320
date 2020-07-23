@@ -6,7 +6,7 @@ def join_nested_strings(src)
   for i in 0...src.size do
     for j in 0...src[i].size do
       binding.pry
-      if src[i][j].class == ""
+      if src[i][j].class == "String"
         result += src[i][j] + " "
       end
     end
